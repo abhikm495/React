@@ -1,0 +1,17 @@
+.playstore-container {
+  background-color: rgba(173, 190, 198, 0.58);
+}
+.heading {
+  font-weight: bold;
+  font-size: 24px;
+}
+.sub-heading {
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 10px;
+}
+.download-img {
+  border-radius: 20%;
+  border: none;
+}

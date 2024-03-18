@@ -1,0 +1,10 @@
+.ps-breadcrumb {
+  background-color: #f1f1f1;
+  padding: 2px;
+}
+.breadcrumb {
+  padding-top: 5px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}

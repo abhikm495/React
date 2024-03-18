@@ -1,0 +1,46 @@
+.term-container {
+  margin-top: 2%;
+}
+.wrapper-accordion {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2%;
+
+  .accordion {
+    width: 100%;
+
+    .item-accordion {
+      background: #e9e8e7;
+      margin-bottom: 5px;
+      padding: 10px 20px;
+
+      cursor: pointer;
+      .title-accordion {
+        color: #180c1d;
+        display: flex;
+        font-size: 25px;
+        margin-top: -5px;
+        margin-bottom: -5px;
+        justify-content: space-between;
+        align-items: center;
+        height: 50px;
+      }
+
+      .content-accordion {
+        color: #8b7575;
+        max-height: 0;
+        overflow: hidden;
+        transition: all 0.5s cubic-bezier(0, 1, 0, 1);
+      }
+
+      .content-accordion.show {
+        height: auto;
+        max-height: 9999px;
+        transition: all 0.5s cubic-bezier(1, 0, 1, 0);
+      }
+    }
+  }
+}

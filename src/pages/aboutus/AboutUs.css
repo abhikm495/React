@@ -1,0 +1,22 @@
+.about-us > div:not(:last-child) {
+  border-bottom: 1px solid #e1e1e1;
+}
+.about-us-flex {
+  display: flex;
+  margin-bottom: 5%;
+  margin-right: 5%;
+  margin-left: 5%;
+  gap: 5%;
+}
+.about-us-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.about-us-container p {
+  max-width: 40%;
+}
+.about-us-text-container {
+  margin: auto;
+}
